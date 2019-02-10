@@ -1,0 +1,17 @@
+{
+  "name": "cannerv3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "canner start"
+  },
+  "dependencies": {
+    "@canner/cli": "^3.0.1",
+    "@gqlify/firebase": "^3.1.0",
+    "@gqlify/firestore": "^3.1.0",
+    "@gqlify/server": "^3.1.0",
+    "firebase-admin": "^7.0.0",
+    "prettier": "^1.16.4"
+  }
+}
