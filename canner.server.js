@@ -4,6 +4,7 @@ const { MemoryDataSource } = require("@gqlify/server");
  * const admin = require('firebase-admin');
  * const cert = require('./cert.json');
  */
+const { FirebaseDataSource } = require("@gqlify/firebase");
 const { FirestoreDataSource } = require("@gqlify/firestore");
 const admin = require("firebase-admin");
 const cert = require("./ieucert.json");
@@ -116,15 +117,16 @@ exports.graphql = {
           credential: admin.credential.cert(cert),
           databaseURL: `https://${cert.project_id}.firebaseio.com`
         },
+        collection: args.key
+      }),
+    firebase: args =>
+      new FirebaseDataSource({
+        config: {
+          credential: admin.credential.cert(cert),
+          databaseURL: `https://${cert.project_id}.firebaseio.com`
+        },
         path: args.key
       })
-    // firebase: args => new FirebaseDataSource({
-    //   config: {
-    //     credential: admin.credential.cert(cert),
-    //     databaseURL: `https://${cert.project_id}.firebaseio.com`,
-    //   },
-    //   collection: args.key
-    // })
   }
 };
 

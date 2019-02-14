@@ -7,7 +7,6 @@
     "start": "canner start"
   },
   "dependencies": {
-    "@canner/cli": "^3.0.1",
     "@gqlify/firebase": "^3.1.0",
     "@gqlify/firestore": "^3.1.0",
     "@gqlify/server": "^3.1.0",

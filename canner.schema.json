@@ -81,7 +81,7 @@
           "description": "",
           "uiParams": {},
           "type": "string",
-          "__CANNER_KEY__": ["vpey6qxnto", "vuv23ga19l"]
+          "__CANNER_KEY__": ["4ogzrw44lp", "j6c50cly2n"]
         },
         "content": {
           "keyName": "content",
@@ -107,7 +107,7 @@
               "type": "string"
             }
           },
-          "__CANNER_KEY__": ["vpey6qxnto", "vuv23ga19l"]
+          "__CANNER_KEY__": ["4ogzrw44lp", "j6c50cly2n"]
         },
         "draft": {
           "keyName": "draft",
@@ -119,7 +119,7 @@
           "description": "",
           "uiParams": {},
           "type": "boolean",
-          "__CANNER_KEY__": ["7fuvpkjkhb", "lqqz756x7s", "vuv23ga19l"]
+          "__CANNER_KEY__": ["ttss3sdcpc", "0f1uzmqcub", "j6c50cly2n"]
         },
         "coverPicture": {
           "keyName": "coverPicture",
@@ -131,7 +131,7 @@
           "ui": "image",
           "description": "",
           "uiParams": {},
-          "__CANNER_KEY__": ["7fuvpkjkhb", "lqqz756x7s", "vuv23ga19l"]
+          "__CANNER_KEY__": ["ttss3sdcpc", "0f1uzmqcub", "j6c50cly2n"]
         },
         "topLevel": {
           "keyName": "topLevel",
@@ -143,7 +143,7 @@
           "description": "",
           "uiParams": {},
           "type": "boolean",
-          "__CANNER_KEY__": ["7fuvpkjkhb", "lqqz756x7s", "vuv23ga19l"]
+          "__CANNER_KEY__": ["ttss3sdcpc", "0f1uzmqcub", "j6c50cly2n"]
         },
         "categories": {
           "keyName": "categories",
@@ -169,11 +169,11 @@
           "toolbar": {
             "pagination": {}
           },
-          "__CANNER_KEY__": ["7fuvpkjkhb", "lqqz756x7s", "vuv23ga19l"]
+          "__CANNER_KEY__": ["ttss3sdcpc", "0f1uzmqcub", "j6c50cly2n"]
         }
       }
     },
-    "__CANNER_KEY__": ["ibby7ueocp"]
+    "__CANNER_KEY__": ["a6bhped8yb"]
   },
   "categories": {
     "keyName": "categories",
@@ -213,7 +213,7 @@
         }
       }
     },
-    "__CANNER_KEY__": ["ibby7ueocp"],
+    "__CANNER_KEY__": ["a6bhped8yb"],
     "toolbar": {
       "pagination": {}
     }
